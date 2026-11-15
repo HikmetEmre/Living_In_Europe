@@ -1,0 +1,9 @@
+pandas
+numpy
+requests
+beautifulsoup4
+seaborn
+matplotlib
+folium
+geopandas<1.0
+geopy
