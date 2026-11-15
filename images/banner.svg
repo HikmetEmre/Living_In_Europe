@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="bld" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+
+  <!-- subtle grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04">
+    <path d="M0 105H1280M0 210H1280M0 315H1280"/>
+    <path d="M320 0V420M640 0V420M960 0V420"/>
+  </g>
+
+  <!-- LEFT: text -->
+  <text x="70" y="120" font-size="22" font-weight="600" letter-spacing="4" fill="#38bdf8">DATA ENGINEERING PROJECT</text>
+  <text x="70" y="190" font-size="56" font-weight="800" fill="#f8fafc">Can I Afford</text>
+  <text x="70" y="255" font-size="56" font-weight="800" fill="url(#accent)">Europe?</text>
+  <text x="70" y="305" font-size="22" fill="#94a3b8">Rent scraped from public listings, compared with</text>
+  <text x="70" y="335" font-size="22" fill="#94a3b8">salaries, jobs and cost of living across cities.</text>
+
+  <!-- tags -->
+  <g font-size="16" font-weight="600">
+    <rect x="70" y="360" width="118" height="34" rx="17" fill="#38bdf8" fill-opacity="0.15" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="129" y="382" text-anchor="middle" fill="#7dd3fc">Rent by size</text>
+    <rect x="200" y="360" width="150" height="34" rx="17" fill="#34d399" fill-opacity="0.15" stroke="#34d399" stroke-opacity="0.5"/>
+    <text x="275" y="382" text-anchor="middle" fill="#6ee7b7">Deposit + living</text>
+    <rect x="362" y="360" width="150" height="34" rx="17" fill="#fbbf24" fill-opacity="0.15" stroke="#fbbf24" stroke-opacity="0.5"/>
+    <text x="437" y="382" text-anchor="middle" fill="#fcd34d">Salary vs rent</text>
+  </g>
+
+  <!-- RIGHT: skyline -->
+  <g transform="translate(660,0)">
+    <!-- buildings -->
+    <g fill="url(#bld)">
+      <rect x="10"  y="250" width="70" height="170"/>
+      <rect x="90"  y="190" width="80" height="230"/>
+      <rect x="180" y="280" width="60" height="140"/>
+      <rect x="250" y="150" width="90" height="270"/>
+      <rect x="350" y="230" width="70" height="190"/>
+      <rect x="430" y="300" width="60" height="120"/>
+      <rect x="500" y="200" width="80" height="220"/>
+      <rect x="590" y="260" width="30" height="160"/>
+    </g>
+    <!-- roofs -->
+    <path d="M90 190 L130 160 L170 190Z M350 230 L385 205 L420 230Z" fill="#475569"/>
+
+    <!-- windows -->
+    <g fill="#fbbf24" fill-opacity="0.75">
+      <rect x="25" y="270" width="10" height="14"/><rect x="50" y="270" width="10" height="14"/>
+      <rect x="25" y="305" width="10" height="14"/><rect x="50" y="340" width="10" height="14"/>
+      <rect x="105" y="215" width="10" height="14"/><rect x="135" y="250" width="10" height="14"/>
+      <rect x="105" y="290" width="10" height="14"/><rect x="135" y="330" width="10" height="14"/>
+      <rect x="195" y="300" width="10" height="14"/><rect x="215" y="345" width="10" height="14"/>
+      <rect x="265" y="175" width="10" height="14"/><rect x="295" y="205" width="10" height="14"/>
+      <rect x="265" y="245" width="10" height="14"/><rect x="310" y="285" width="10" height="14"/>
+      <rect x="265" y="325" width="10" height="14"/><rect x="295" y="365" width="10" height="14"/>
+      <rect x="365" y="250" width="10" height="14"/><rect x="395" y="290" width="10" height="14"/>
+      <rect x="445" y="320" width="10" height="14"/><rect x="515" y="225" width="10" height="14"/>
+      <rect x="550" y="265" width="10" height="14"/><rect x="515" y="320" width="10" height="14"/>
+    </g>
+
+    <!-- rent bars (decorative) -->
+    <g>
+      <rect x="40"  y="60" width="38" height="110" rx="6" fill="#38bdf8" fill-opacity="0.9"/>
+      <rect x="100" y="90" width="38" height="80"  rx="6" fill="#38bdf8" fill-opacity="0.7"/>
+      <rect x="160" y="40" width="38" height="130" rx="6" fill="#38bdf8" fill-opacity="0.95"/>
+      <rect x="220" y="75" width="38" height="95"  rx="6" fill="#38bdf8" fill-opacity="0.75"/>
+      <rect x="280" y="100" width="38" height="70" rx="6" fill="#38bdf8" fill-opacity="0.6"/>
+      <rect x="340" y="55" width="38" height="115" rx="6" fill="#38bdf8" fill-opacity="0.85"/>
+      <rect x="400" y="85" width="38" height="85"  rx="6" fill="#38bdf8" fill-opacity="0.7"/>
+    </g>
+    <line x1="25" y1="170" x2="455" y2="170" stroke="#64748b" stroke-width="2"/>
+
+    <!-- salary line -->
+    <polyline points="59,45 119,70 179,30 239,55 299,80 359,40 419,65"
+              fill="none" stroke="#34d399" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#0f172a" stroke="#34d399" stroke-width="3">
+      <circle cx="59" cy="45" r="6"/><circle cx="119" cy="70" r="6"/><circle cx="179" cy="30" r="6"/>
+      <circle cx="239" cy="55" r="6"/><circle cx="299" cy="80" r="6"/><circle cx="359" cy="40" r="6"/>
+      <circle cx="419" cy="65" r="6"/>
+    </g>
+
+    <!-- legend -->
+    <g font-size="14" fill="#94a3b8">
+      <rect x="470" y="48" width="14" height="14" rx="3" fill="#38bdf8"/>
+      <text x="492" y="60">Rent</text>
+      <line x1="470" y1="85" x2="484" y2="85" stroke="#34d399" stroke-width="4" stroke-linecap="round"/>
+      <text x="492" y="90">Salary</text>
+    </g>
+  </g>
+</svg>

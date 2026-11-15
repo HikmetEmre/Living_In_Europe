@@ -4,7 +4,7 @@ A data-mining project on the European rental market: **50,805 rental listings** 
 
 > **Heads-up: this is a 2023 snapshot.** All data was collected in 2023 and the scripts are kept as a record of that work. The websites' markup has most likely changed since, so the scrapers will probably no longer work as-is. The code was converted from notebooks to scripts afterwards and **has not been re-run**.
 
-![Mean rent by city in Europe](images/map/map_01.png)
+![Mean rent by city in Europe](images/banner.svg)
 
 ## Project aim
 
